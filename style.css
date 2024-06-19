@@ -1,0 +1,22 @@
+#all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    /* border: 1px solid red; */
+   
+}
+
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+    }
+    #all {
+        flex-direction: column;
+        justify-content: left;
+        align-items:  baseline;
+    
+    }
+}
